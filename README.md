@@ -22,7 +22,9 @@ My (various and different) latest attempts on the VULNSERVER.
       - assembly
       - shellcode
 
-
+- **Attempt 5(overkill for beginners)**
+  - using undocumented registers (see link eecg below for more info)
+  
 
 
 ## Screenshots
@@ -48,15 +50,11 @@ My (various and different) latest attempts on the VULNSERVER.
 ### Bonus: EBP+EIP control together
 ![image](https://user-images.githubusercontent.com/68499986/180655178-0aa0729b-80e7-476c-bca2-2dfe3beb2f19.png)
 
-
 ![image](https://user-images.githubusercontent.com/68499986/180656116-5052a3e5-fdea-4931-bc91-4f0a869d2027.png)
-
-
 
 ---
 
-
-Given one (assuming no ASLR,DEP,.. is present) registers Position(easy to predict given it's minimal overflowing value) (which, again is easy to predict by itself, given 1 reliable amount of '(say) A's' that crash the app5
+Given one (assuming no ASLR,DEP,.. is present) registers Position(easy to predict given it's minimal overflowing value) (which, again is easy to predict by itself, given 1 reliable amount of A's' that crash the app
 
 
 
