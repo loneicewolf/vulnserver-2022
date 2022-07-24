@@ -11,3 +11,11 @@ My (various and different) latest attempts on the VULNSERVER.
   - (begin with small value, move up until it crashed, but not overwrote anything, now - predict by **first try** to overwrite EDI, EBP, then EIP)
 
 
+- ### attempt 4 and onward: modifying the memory of other registers from the previous (now controlled) registers
+  - jump, call and go to's
+  - assembly
+  - shellcode
+
+
+
+
