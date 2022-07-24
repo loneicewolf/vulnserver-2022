@@ -1,4 +1,9 @@
 # vulnserver-2022
+# note:
+this is intended for beginners. I will leave the very deep details and write obvious comments.
+this is also not done yet.
+
+
 My (various and different) latest attempts on the VULNSERVER.
 
 - **attempt 1: just crashing it**
